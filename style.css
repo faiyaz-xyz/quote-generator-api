@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+#card,
+#quoteArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#text,
+#quote,
+#quoteAuthor {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#btn {
+  background-color: cadetblue;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
